@@ -1,4 +1,6 @@
-This repository contains a short, motivating example of a reproducible workflow. The exercise is entitled "Where are we coming from and where are we going?"
+# Where are we coming from and where are we going?
+
+This repository contains a short, motivating example of a reproducible workflow.
 
 It is intended to be the first exercise in a Carpentries-esque workshop or course and is designed to accomplish several goals at once:
 
@@ -31,5 +33,7 @@ It is intended to be the first exercise in a Carpentries-esque workshop or cours
 
 ## Notes
 
+1. The punchline, while showing the saved plot, goes something like this: "Here is where we are all from (\*pointing to hometown points\*), here is where we are now (\*pointing to current workshop location point\*), and all of this is where we are headed (\*gesturing to the whole plot and the code\*)-- creating flexible, reproducible workflows to do cool things with data"
 1. I'd like to better incorporate feedback to use this motivating exercise as a way to orient learners (see related slides regarding Bloom's, metacognition, and sustainable learning: https://www.academia.edu/35830333/Short-_and_long-_form_training_lessons_from_education_and_cognitive_science_for_effectiveness_)
 1. I'm considering adding a level of complexity to this to generate an interactive map with leaflet or some such. This would add an additional (perhaps unnecessary) 'wow' factor, but would also allow me to zoom in on a smaller segment of the world if it turns out that everyone is from a small geographic extent and the plot isn't that impressive.
+1. There is a `dc_origins_backup.csv` file to use for testing and if something breaks unexpectedly. You'd certainly lose much of the benefit of using the data that connects the learners to the material though, so use at your own discretion!
